@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Smoke_test(failed)(failed)(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mystore.testcases.HomePageTest">
+        <methods>
+          <include name="verifyWishList"/>
+          <include name="setUp"/>
+          <include name="verifyOrderHistoryAndDetailsTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Smoke_test(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Suite]]]] -->
