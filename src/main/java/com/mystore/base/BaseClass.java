@@ -28,7 +28,7 @@ public class BaseClass {
 	//Declare ThreadLocal driver
 	public static ThreadLocal<RemoteWebDriver> driver= new ThreadLocal<>();
 	
-	@BeforeSuite(groups = { "Smoke", "Sanity", "Regression" })
+	@BeforeSuite(groups = { "Smoke", "Sanity", "Regression","Test" })
 	public void loadConfig()
 	{
 		ExtentManager.setExtent();
